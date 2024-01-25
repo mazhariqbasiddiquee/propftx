@@ -12,7 +12,7 @@ export default function Login(){
     const Navigate=useNavigate()
 
    const Submithandler=()=>{
-      fetch("http://localhost:4500/user/login",{
+      fetch("https://propftx-tykn.onrender.com/user/login",{
         method:"POST",
         headers:{
             "Content-type":"application/json"
