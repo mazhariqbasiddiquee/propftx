@@ -1,0 +1,40 @@
+.heading{
+  text-align: center;
+ font-size: 40px;
+}
+
+.Nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(102,205,170);
+  
+
+}
+
+.top{
+  position: sticky;
+  top: 0px;
+  background-color: white;
+ 
+
+}
+
+.Movie-list{
+  display: grid;
+  width: 90%;
+  margin: auto;
+  padding-top: 5%;
+  grid-template-columns: repeat(3,1fr);
+ 
+}
+
+.Movie-list img{ 
+  width:80%;
+  
+}
+
+.content{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}

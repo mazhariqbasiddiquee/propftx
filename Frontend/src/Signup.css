@@ -1,0 +1,22 @@
+
+.Signup{
+   
+width: 10%;
+margin: auto;
+padding-top: 5%;
+ 
+}
+
+.Signup input{
+    display: block;
+    height: 30px;
+   margin-top: 20px;
+ 
+}
+
+.Signup button{
+  
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
