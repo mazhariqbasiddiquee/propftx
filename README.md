@@ -62,7 +62,9 @@ delete:https://propftx-tykn.onrender.com/watch/delete/_id
 
 ![Screenshot (45)](https://github.com/mazhariqbasiddiquee/propftx/assets/121328575/e145565e-9e36-4b06-8939-403ec0c28e3b)
 
-This is the homepage from where you can add movies to watch list and delete and update movies , if you are login otherwise , you have to login first
+This is the homepage from where you can add movies to watch list and delete and update movies , if you are login otherwise , you have to login first.From home page you can edit after clicking on text it will show you prompt to enter values for name change and for rating change
+![Screenshot (51)](https://github.com/mazhariqbasiddiquee/propftx/assets/121328575/a5db3a26-c853-4959-b828-7c06282086a6)
+![Screenshot (52)](https://github.com/mazhariqbasiddiquee/propftx/assets/121328575/fd6d6889-89e7-45d7-ba9c-81a47c63ae98)
 
 
 
