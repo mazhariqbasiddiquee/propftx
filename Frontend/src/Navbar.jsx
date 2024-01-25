@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <div className="top">
-      <h1 className="heading">Movie</h1>
+      <h1 className="heading">Movies</h1>
       <div className="Nav">
         <p onClick={() => Handler("/")}>Home</p>
         <p onClick={() => Handler("/watchlist")}>Watchlist</p>
