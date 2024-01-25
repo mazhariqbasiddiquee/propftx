@@ -3,12 +3,16 @@
 #Backend
 #hotsed on render : https://propftx-tykn.onrender.com
 # Schema for movies :
+
+
 {
     name:{type:String},
     img:{type:String},
     rating:{type:String}
 
 }
+
+
 # routes of movies
 
 get:https://propftx-tykn.onrender.com/movie
