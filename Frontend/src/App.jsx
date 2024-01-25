@@ -15,7 +15,7 @@ export default function Home() {
      <BrowserRouter>
      <Navbar/>
         <Routes>
-            <Route  path="/Home" element={<Main/>}/>
+            <Route  path="/" element={<Main/>}/>
             <Route path="/Signup" element={<Signup/>}/>
             <Route path="/Login"  element={<Login/>} />
             <Route path="/watchlist"  element={<Watchlist/>} />

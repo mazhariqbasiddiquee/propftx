@@ -26,7 +26,7 @@ export default function Login(){
         if(data.token){
             alert("login successfull")
             localStorage.setItem("token",JSON.stringify(data))
-            Navigate("/Home")
+            Navigate("/")
         }
         else{
             alert(data.message)

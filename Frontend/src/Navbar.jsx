@@ -32,7 +32,7 @@ export default function Navbar() {
     <div className="top">
       <h1 className="heading">Movie</h1>
       <div className="Nav">
-        <p onClick={() => Handler("/Home")}>Home</p>
+        <p onClick={() => Handler("/")}>Home</p>
         <p onClick={() => Handler("/watchlist")}>Watchlist</p>
         <p onClick={() => Handler("/Addmovies")}>Addmovies</p>
         {token.name ? (
