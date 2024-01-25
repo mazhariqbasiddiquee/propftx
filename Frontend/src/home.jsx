@@ -41,8 +41,13 @@ export default function Main() {
 
                     {/* Name of the movie and working */}
                       <p  onClick={()=>{
-                        const userInput = prompt("Please enter name");
-                        console.log("User entered:", userInput);
+                
+                        let userInput = prompt("Please enter the value");
+                          
+
+                        if(/^[A-Za-z]+$/.test(userInput)){
+
+                        
                         if(token!=null){
                           fetch(`https://propftx-tykn.onrender.com/movie/update/${_id}`, {
                             method: "PATCH",
@@ -68,6 +73,10 @@ export default function Main() {
                          else{
                           alert("login to edit")
                          }
+                        }
+                        else{
+                          alert("please enter in correct format")
+                        }
                       }}>{name}</p>
 
                     {/* Name end */}
@@ -76,9 +85,12 @@ export default function Main() {
 
                     {/* Rating of the movie */}
                       <p   onClick={()=>{
-                        const userInput = prompt("Please enter the value");
+                       let userInput = prompt("Please enter the value");
+                          userInput=Number(userInput)
+
+                        if(typeof userInput==="number" &&userInput<=5){
                         
-                        console.log("User entered:", userInput);
+                 
                         if(token!=null){
                           fetch(`https://propftx-tykn.onrender.com/movie/update/${_id}`, {
                             method: "PATCH",
@@ -104,6 +116,10 @@ export default function Main() {
                          else{
                           alert("login to edit")
                          }
+                        }
+                        else{
+                          alert("please enter valid number")
+                        }
                       }}>{rating}</p>
 
                         {/* Rating of the movie  end */}
@@ -128,7 +144,7 @@ export default function Main() {
                             })
                               .then((res) => res.json())
                               .then((data) => {
-                                console.log(data);
+                                
                                 alert(data.message);
                               })
                               .catch((err) => {
