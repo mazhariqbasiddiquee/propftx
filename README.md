@@ -59,6 +59,7 @@ delete:https://propftx-tykn.onrender.com/watch/delete/_id
 
 
 # front End
+Hosted on vercel  :  https://propftx-mazhariqbasiddiquee.vercel.app/
 
 ![Screenshot (45)](https://github.com/mazhariqbasiddiquee/propftx/assets/121328575/e145565e-9e36-4b06-8939-403ec0c28e3b)
 
